@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--WeatherFragment,WeatherViewPaget-->
+    <color name="white">#ffffff</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="half_gray">#e0e0e0</color>
+    <color name="gray">#b9b9b9</color>
+    <color name="transparent">#00ffffff</color>
+
+    <color name="half_gray_view">#1fffffff</color>
+    <color name="tab_bg">#9f000000</color>
+    <color name="tab_text_color">#ebebeb</color>
+    <color name="tab_text_color_pressed">#3385ff</color>
+    <color name="humidity">#9febebeb</color>
+    <color name="add_city_page_bg">#303030</color>
+    <color name="weather_page">#ebebeb</color>
+    <color name="add_city_name">#a8a5a5</color>
+    <!--HotCityFragment-->
+    <color name="biaoyuColor">#ffffff</color>
+    <color name="hotCityFragmentColor">#ffffff</color>
+    <color name="hotCityColor">#747989</color>
+
+    <!--SearchCityFragment-->
+    <color name="cancelButtonColor">#2da0d7</color>
+    <color name="hotCitySelected">#b9b9b9</color>
+    <color name="hotCitySeletctedText">#2da0d7</color>
+    <!--LoginFragment-->
+    <color name="login_bg">#3fffffff</color>
+    <color name="user_name">#747989</color>
+
+    <!--RegisterFragment-->
+    <color name="register_top_bg">#197fee</color>
+    <color name="register_text">#949494</color>
+
+    <!--MessageFragment-->
+    <color name="tab_TextColor">#b2adb6</color>
+    <color name="tab_SelectedTextColor">#ebebeb</color>
+    <color name="tab_background">#a38dc6</color>
+</resources>

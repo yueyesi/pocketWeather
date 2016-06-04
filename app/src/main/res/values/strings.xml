@@ -1,0 +1,76 @@
+<resources>
+    <!--WeatherFragment,WeatherViewPager-->
+    <string name="app_name">口袋天气</string>
+    <string name="weather_tab_text">主页</string>
+    <string name="city_tab_text">城市</string>
+    <string name="message_tab_text">消息</string>
+    <string name="my_tab_text">我的</string>
+    <string name="top_city_name">中国江苏省</string>
+    <string name="top_city_time">5月5日 周四</string>
+    <string name="weather">晴</string>
+    <string name="current_temp">21°</string>
+    <string name="wind_direction">西北风</string>
+    <string name="wind_strength">1-2级</string>
+    <string name="wind_direction_and_strength">北风1-2级</string>
+    <string name="humidity">湿度</string>
+    <string name="humidity_text">98%</string>
+    <string name="today_weather">今日：</string>
+    <string name="today_temp">气温：</string>
+    <string name="wind">风力及风向：</string>
+    <string name="temperature_text">15~18℃</string>
+    <string name="wind_text">东风 3-4 级</string>
+    <string name="currentTime">11:24</string>
+    <string name="search_country_city">搜索全国城市</string>
+    <string name="futureWeather">未来几天天气：</string>
+    <string name="refresh_time">11:34更新</string>
+    <string name="tigan_temp">体感温度</string>
+    <string name="ult_strength">紫外线强度</string>
+    <string name="ult_strength_text">中等</string>
+    <string name="future_weather">未来趋势</string>
+
+    <!--HotCityFragment-->
+    <string name="hotCity">-热门城市-</string>
+    <string name="biaoyu">中国就在你的口袋里</string>
+    <!--SearchCityFragment-->
+    <string name="cancelButton">取消</string>
+
+    <!--城市集合-->
+    <string-array name="arrays">
+        <item>北京</item>
+        <item>上海</item>
+        <item>重庆</item>
+        <item>长沙</item>
+        <item>广州</item>
+        <item>苏州</item>
+        <item>长春</item>
+        <item>呼和浩特</item>
+        <item>昆明</item>
+        <item>杭州</item>
+        <item>绍兴</item>
+        <item>香港</item>
+        <item>南通</item>
+        <item>南京</item>
+
+    </string-array>
+
+    <!--myFragment-->
+    <string name="login_user_name">登陆</string>
+    <string name="pro_info">产品信息</string>
+    <string name="user_phone">请输入手机号</string>
+    <string name="user_password">请输入密码</string>
+    <string name="register_phone">手机号快速注册</string>
+    <string name="register_third">-使用第三方账号登录-</string>
+    <string name="forget_psd">忘记密码?</string>
+
+    <!--RegisterFragment-->
+    <string name="register_text">注 册</string>
+    <string name="register_yanzhenma">请输入验证码</string>
+    <string name="register_phone_number">请输入手机号</string>
+    <string name="register_password">输入密码</string>
+    <string name="send_yanzhenma">发送验证码</string>
+
+    <!--developerInfo-->
+    <string name="developer_name">开发者:  张浩</string>
+    <string name="developer_mobile_phone">电话:  182626020222</string>
+    <string name="developer_email">邮箱:  18262602022@126.com</string>
+</resources>

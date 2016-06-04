@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+   >
+    <LinearLayout
+        android:id="@+id/hot_city_lin"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:background="@drawable/hot_city_bg"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/hot_city_mark"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@mipmap/icon_marka"/>
+        <TextView
+            android:id="@+id/hot_city_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:text="南京" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

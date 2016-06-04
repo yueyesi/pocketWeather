@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tools">
+        <item>穿衣建议</item>
+        <item>节日祝福</item>
+        <item>皮肤助手</item>
+        <item>我的好友</item>
+        <item>设置</item>
+        <item>产品信息</item>
+        <item>检测更新</item>
+        <item>关于</item>
+
+    </string-array>
+</resources>

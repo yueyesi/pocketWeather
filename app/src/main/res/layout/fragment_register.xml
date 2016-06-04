@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/register_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/back_button"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/register_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_centerInParent="true"
+            android:text="@string/register_text"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/register_mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:id="@+id/register_yanzhenma_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/yanzhengma" />
+        <EditText
+            android:id="@+id/register_yanzhenma"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="@string/register_yanzhenma"
+            android:maxLength="16"
+            android:layout_alignLeft="@+id/register_yanzhenma_icon"
+            android:layout_alignBaseline="@+id/register_yanzhenma_icon"
+            android:textColorHint="@color/register_text"
+            android:paddingLeft="45dp"
+
+
+            />
+        <Button
+            android:id="@+id/send_yanzhenma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/register_yanzhenma"
+
+            android:text="@string/send_yanzhenma"
+            android:background="@color/transparent"
+            android:textColor="@color/register_top_bg"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/register1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register_mid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp">
+        <ImageView
+            android:id="@+id/register_phone_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/phone_icon" />
+        <EditText
+            android:id="@+id/register_phone_text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:maxLength="23"
+            android:hint="@string/register_phone_number"
+            android:layout_alignLeft="@+id/register_phone_icon"
+            android:layout_alignBaseline="@+id/register_phone_icon"
+            android:textColorHint="@color/register_text"
+            android:paddingLeft="45dp"
+
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/register2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_mid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:id="@+id/register_password_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/mima" />
+        <EditText
+            android:id="@+id/register_password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/register_text"
+            android:singleLine="true"
+            android:maxLength="23"
+            android:hint="@string/register_password"
+            android:layout_alignLeft="@+id/register_password_icon"
+            android:layout_alignBaseline="@+id/register_password_icon"
+            android:paddingLeft="45dp"
+
+            />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:background="@mipmap/register_bg"
+        android:layout_below="@+id/register2"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/register_text"
+        android:textColor="@color/white"/>
+
+
+
+</RelativeLayout>

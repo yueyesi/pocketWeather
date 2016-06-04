@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+    <ImageView
+        android:id="@+id/history_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/message_icon"
+        android:background="@color/transparent"
+
+       />
+    <TextView
+        android:id="@+id/history_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="电影导演吴永刚诞生"
+        android:layout_toRightOf="@+id/history_icon"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000000"
+        android:paddingTop="7dp"
+        />
+    <TextView
+        android:id="@+id/history_lunar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="丁未年九月廿六"
+        android:layout_toRightOf="@+id/history_icon"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/history_title"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        />
+    <TextView
+        android:id="@+id/history_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="12sp"
+        android:layout_alignParentRight="true"
+        android:text="2017"
+        android:layout_below="@+id/history_title"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        />
+</RelativeLayout>

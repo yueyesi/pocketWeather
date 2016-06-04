@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--城市列表-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/city_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/city_icon"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"/>
+    <ImageView
+        android:id="@+id/city_loc_mark"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_toRightOf="@+id/city_icon"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="0dp"
+        android:src="@mipmap/icon_marka"
+      />
+    <TextView
+        android:id="@+id/city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/city_loc_mark"
+        android:text="@string/top_city_name"
+        android:textColor="@color/add_city_name"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/delete_button"
+        android:src="@mipmap/delete_button"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:background="@color/transparent"
+      android:layout_marginTop="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        />
+
+
+</RelativeLayout>

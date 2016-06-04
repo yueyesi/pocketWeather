@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_bg2"
+  >
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:id="@+id/top_add_city_button"
+           android:layout_width="42dp"
+           android:layout_height="42dp"
+           android:src="@mipmap/add_city_button"
+
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="2dp"
+         />
+       <ImageView
+           android:id="@+id/top_loc_mark"
+           android:layout_width="15dp"
+           android:layout_height="15dp"
+           android:src="@mipmap/icon_marka"
+           android:layout_toLeftOf="@+id/top_city_name"
+           android:layout_alignTop="@+id/top_city_name"/>
+       <TextView
+           android:id="@+id/top_city_name"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/top_city_name"
+            android:layout_centerHorizontal="true"
+
+           android:textColor="@color/tab_text_color"
+           android:textSize="15sp"/>
+       <TextView
+           android:id="@+id/top_city_time"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/top_city_name"
+           android:text="@string/top_city_time"
+           android:layout_centerHorizontal="true"
+           android:textColor="@color/half_gray"
+           android:textSize="12sp"/>
+       <ImageView
+           android:id="@+id/shared_button"
+           android:layout_width="30dp"
+           android:layout_height="25dp"
+           android:src="@mipmap/shared_button"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:layout_marginTop="5dp"
+           android:layout_marginRight="12dp"/>
+   </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/weather_viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

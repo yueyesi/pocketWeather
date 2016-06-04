@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hotCityFragmentColor"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/search_city_bg">
+        <ImageView
+            android:id="@+id/back_button_se"
+            android:src="@mipmap/back_button_se"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:id="@+id/search_button_main"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/search_button_bg"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:paddingLeft="6dp"
+            android:hint="搜索全国城市"
+            android:maxLength="10"
+            />
+        <ImageView
+            android:id="@+id/search_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/search_button"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="70dp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginBottom="67dp"
+
+            />
+        <TextView
+            android:id="@+id/biaoyu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/biaoyu"
+            android:textSize="25sp"
+            android:textColor="@color/biaoyuColor"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_above="@+id/search_button_main"
+            android:layout_marginBottom="30dp"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/hot_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hotCity"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textColor="@color/hotCityColor"/>
+    <GridView
+        android:layout_marginTop="10dp"
+        android:id="@+id/hot_city_grid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:horizontalSpacing="15dp"
+        android:verticalSpacing="20dp"
+        android:numColumns="3">
+
+    </GridView>
+    <Button
+        android:id="@+id/more_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更多>>"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="right"
+        android:background="@color/transparent"
+        android:textColor="@color/gray"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>
